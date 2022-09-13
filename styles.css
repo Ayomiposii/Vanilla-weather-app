@@ -1,0 +1,50 @@
+body {
+   font-family: 'Chakra Petch', sans-serif;
+
+}
+
+#city {
+    font-size: 40px;
+}
+#temperature {
+    font-size: 60px;
+}
+#description {
+    font-size: 20px;
+    font-weight: 600;
+}
+.head {
+    margin-left: 20px;
+}
+.search-input{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.submit-button {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.471);
+    border: none;
+    border-radius: 10px;
+    transition: 250ms ease-in-out;
+}
+.submit-button:hover {
+   background-color: gray;
+}
+.temp-body {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.471);
+    border-radius: 20px;
+    
+}
+
+.app-body {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 600px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
