@@ -9,7 +9,8 @@ a :active {
   color: gray;
 }
 img {
-  width: 7rem;
+  max-width: 100%;
+  font-size: 30px;
 }
 li {
   list-style: none;
