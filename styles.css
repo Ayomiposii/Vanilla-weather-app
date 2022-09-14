@@ -9,10 +9,19 @@ a {
 a :active {
     color: gray;
 }
+img {
+    width: 7rem;
+}
+li {
+    list-style: none;
+}
+ul {
+    padding-top: 20px;
+}
 #city {
     font-size: 40px;
 }
-#temperature {
+strong {
     font-size: 60px;
 }
 #description {
@@ -44,7 +53,7 @@ a :active {
 }
 .temp-body {
     margin: 10px;
-    padding: 20px;
+    padding: 10px;
     background-color: rgba(128, 128, 128, 0.471);
     border-radius: 20px;
     
