@@ -18,11 +18,12 @@ li {
 ul {
     padding-top: 20px;
 }
-#city {
-    font-size: 40px;
-}
+
 strong {
     font-size: 60px;
+}
+#city {
+    font-size: 40px;
 }
 #description {
     font-size: 20px;
@@ -63,6 +64,7 @@ strong {
 .app-body {
     display: block;
     margin: 10px auto;
+    margin-top: 30px;
     padding: 10px;
     max-width: 600px;
     border: 2px solid black;
