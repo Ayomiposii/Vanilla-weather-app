@@ -19,6 +19,10 @@ a :active {
     font-size: 20px;
     font-weight: 600;
 }
+#degrees {
+    position: relative;
+    top: -30px;
+}
 .head {
     margin-left: 20px;
 }
@@ -45,6 +49,7 @@ a :active {
     border-radius: 20px;
     
 }
+
 
 .app-body {
     display: block;
