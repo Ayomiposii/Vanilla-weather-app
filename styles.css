@@ -63,4 +63,7 @@ a :active {
     #temperature {
         font-size: 50px;
     }
+    #degrees {
+        top: -25px;
+    }
 }
