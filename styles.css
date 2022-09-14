@@ -59,3 +59,8 @@ a :active {
     border: 2px solid black;
     border-radius: 10px;
 }
+@media (max-width: 360px) {
+    #temperature {
+        font-size: 50px;
+    }
+}
