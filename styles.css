@@ -86,9 +86,20 @@ footer {
   border-radius: 110%;
 }
 @media (max-width: 360px) {
+  body {
+    max-width: 600px;
+  }
   #temperature {
     font-size: 50px;
   }
   #degrees {    top: -25px;
+  }
+}
+@media (max-width: 280px) {
+  #temperature{
+    font-size: 35px ;
+  }
+  #degrees {
+    top: -15px;
   }
 }
