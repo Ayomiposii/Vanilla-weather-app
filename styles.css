@@ -67,6 +67,9 @@ ul {
   border: 2px solid black;
   border-radius: 10px;
 }
+footer {
+  margin-left: 10px;
+}
 .git-link {
   text-decoration: underline;
   color: rgba(110, 13, 229, 0.971);
@@ -86,7 +89,6 @@ ul {
   #temperature {
     font-size: 50px;
   }
-  #degrees {
-    top: -25px;
+  #degrees {    top: -25px;
   }
 }
