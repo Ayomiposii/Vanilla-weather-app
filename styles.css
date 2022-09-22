@@ -74,6 +74,15 @@ strong {
 .git-link :visited {
   color: red;
 }
+.git {
+  margin: 5px;
+  margin-left: 0px;
+}
+.git_logo {
+  width: 20px;
+  padding-bottom: 5px;
+  border-radius: 110%;
+}
 @media (max-width: 360px) {
   #temperature {
     font-size: 50px;
