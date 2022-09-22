@@ -67,6 +67,13 @@ strong {
   border: 2px solid black;
   border-radius: 10px;
 }
+.git-link {
+  text-decoration: underline;
+  color: rgba(110, 13, 229, 0.971);
+}
+.git-link :visited {
+  color: red;
+}
 @media (max-width: 360px) {
   #temperature {
     font-size: 50px;
