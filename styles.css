@@ -78,7 +78,8 @@ ul {
   font-size: 15px;
 }
 .git_logo {
-  width: 20px;
+  margin-bottom: 2px;
+  width: 15px;
   border-radius: 110%;
 }
 @media (max-width: 360px) {
