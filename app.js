@@ -34,6 +34,8 @@ form.addEventListener("submit", submit);
 function showWeather(response) {
   document.querySelector("#city").innerHTML = response.data.name;
   celsiusTemperature = response.data.main.temp;
+
+  let temperatureElement = document.querySelector("#temperature");
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
   document.querySelector(
     "#humidity"
